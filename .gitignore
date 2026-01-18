@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+.venv/
+
+# Playwright
+.playwright/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
