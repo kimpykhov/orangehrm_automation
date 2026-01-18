@@ -6,3 +6,5 @@ with sync_playwright() as p:
     page.goto("https://opensource-demo.orangehrmlive.com/")
     print(page.title())
     browser.close()
+
+#test
