@@ -18,3 +18,6 @@ class LoginPageLocators:
         "div.oxd-input-group:has(label:text('Password')) "
         "span.oxd-input-field-error-message"
     )
+
+    CRED_ALERT = "div[role='alert']"
+
