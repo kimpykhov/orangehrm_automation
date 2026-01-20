@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a88c66-c226-48bd-add6-2d2ceeb0cd9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/ui/authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/orangehrm_automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/orangehrm_automation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +40,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for authorization.test_user_can_login.executor": "Run",
     "Python tests.Python tests for test_smoke.test_homepage_title.executor": "Run",
+    "Python tests.pytest.executor": "Run",
     "Python.check_playwright.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/test_project/orangehrm_automation/orangehrm_automation/config",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,7 +61,7 @@
       <recent name="D:\test_project\orangehrm_automation\orangehrm_automation\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_smoke.test_homepage_title">
+  <component name="RunManager" selected="Python tests.pytest">
     <configuration name="check_playwright" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="orangehrm_automation" />
       <option name="ENV_FILES" value="" />
@@ -79,6 +84,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for authorization.test_user_can_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="orangehrm_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;authorization.test_user_can_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_smoke.test_homepage_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="orangehrm_automation" />
       <option name="ENV_FILES" value="" />
@@ -94,8 +114,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="orangehrm_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\test_project\orangehrm_automation\orangehrm_automation\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.12 (orangehrm_automation) (2)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed --browser chromium&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.check_playwright" />
+      <item itemvalue="Python tests.pytest" />
+      <item itemvalue="Python tests.Python tests for authorization.test_user_can_login" />
+      <item itemvalue="Python tests.Python tests for test_smoke.test_homepage_title" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for authorization.test_user_can_login" />
         <item itemvalue="Python tests.Python tests for test_smoke.test_homepage_title" />
         <item itemvalue="Python.check_playwright" />
       </list>
